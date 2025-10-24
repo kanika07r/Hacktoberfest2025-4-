@@ -1,0 +1,28 @@
+body {
+  background-color: #f0f0f0;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+.glow-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #007bff;
+  transition: box-shadow 0.3s ease;
+}
+
+.glow-button:hover {
+  box-shadow: 0 0 20px #00cfff, 0 0 40px #00cfff;
+}
+
+.preview img {
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
